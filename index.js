@@ -12,7 +12,7 @@ var song_queue = {};
 var express = require('express');
 var app     = express();
 
-app.set('port', (process.env.PORT || 5000));
+http.createServer(onRequest).listen(process.env.PORT || 6000)
 
 //For avoidong Heroku $PORT error
 app.get('/', function(request, response) {
