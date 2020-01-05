@@ -1,0 +1,21 @@
+{
+  "name": "discord-plugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CompleteTimestamps.plugin.js",
+  "scripts": {
+    "dev": "nodemon my_bot",
+    "patron": "nodemon ./my-music-bot/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^3.0.0",
+    "node-gyp": "^5.0.7",
+    "node-opus": "^0.3.3",
+    "nodemon": "^2.0.2",
+    "opusscript": "0.0.7",
+    "ytdl-core": "^1.0.5"
+  }
+}
