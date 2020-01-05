@@ -2,7 +2,7 @@
   "name": "discord-plugins",
   "version": "1.0.0",
   "description": "",
-  "main": "CompleteTimestamps.plugin.js",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon index"
   },
