@@ -4,8 +4,7 @@
   "description": "",
   "main": "CompleteTimestamps.plugin.js",
   "scripts": {
-    "dev": "nodemon my_bot",
-    "patron": "nodemon ./my-music-bot/index"
+    "start": "nodemon index"
   },
   "author": "",
   "license": "ISC",
