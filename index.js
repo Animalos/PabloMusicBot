@@ -13,8 +13,8 @@ var song_queue = {};
 bot.on('ready', () =>{
         console.log("Cartel of Medellin is ready!")
         bot.user.setStatus('online')
-        // bot.user.setActivity('Selling Narcos, puta!')
-        bot.user.setActivity("Samme's kleine piemel")
+        bot.user.setActivity('Selling Narcos, puta!')
+        // bot.user.setActivity("Samme's kleine piemel")
 })
 
 bot.on('message',message =>{
