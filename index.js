@@ -6,7 +6,7 @@ const {
 } = require('discord.js');
 const bot = new Client();
 const ytdl = require('ytdl-core');
-const token = "NjYxMzM2OTI1MzMxNzgzNzAx.XhG9iQ.qeLPlA1OnO-Ye2_js0azgVfpc_A"
+const token = "NjYxMzM2OTI1MzMxNzgzNzAx.XhNxqQ.OmNc_SHWP-loCdqiCL_ZNJEnge8"
 const PREFIX = 'patron ';
 var song_queue = {};
 
