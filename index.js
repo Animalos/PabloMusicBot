@@ -1,4 +1,5 @@
 const ffmpeg = require('ffmpeg');
+const http = require('http');
 const {
     Client,
     Attachment
