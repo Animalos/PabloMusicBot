@@ -27,11 +27,9 @@ bot.on('ready', () =>{
 bot.on('message',message =>{
         let args = message.content.substring(PREFIX.length).split(" ");
         switch (args[0]){
-            case 'add':
+            case 'queue':
 
-                var song = song_queue[message.guild.id];
-                
-                song.queue.push(args[1]);
+                    bot.message.send(song_queue)
 
             break;
 
@@ -117,9 +115,10 @@ bot.on('message',message =>{
                 }
 
                 message.reply("Ola compadres!")
-                if(!message.guild.voiceConnection)message.member.voiceChannel.join().then(function(connection){
-                    intro(connection, message,);
-                })
+                message.member.voiceChannel.join()
+                // if(!message.guild.voiceConnection)message.member.voiceChannel.join().then(function(connection){
+                    // intro(connection, message);
+                // })
             break;
 
             //This will NOT close the queue list for the bot
